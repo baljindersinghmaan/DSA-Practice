@@ -2,7 +2,7 @@ package com.baljinder.dsapractice;
 
 public class MaximumProduct {
     public static void main(String[] args) {
-
+        System.out.println(maxProduct(new int[] {1,2,4,5,7}));
     }
     public static int maxProduct(int[] nums) {
         int max = nums[0], min = nums[0], result = nums[0];
